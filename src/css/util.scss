@@ -1,0 +1,120 @@
+.clearfix:after { 
+    content:"."; 
+    display:block; 
+    height:0; 
+    clear:both; 
+    visibility: hidden;
+}
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+.text-break {
+    word-wrap: break-word;
+    word-break: normal;
+}
+.text-ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.pull-left {
+    float: left;
+}
+.pull-right {
+    float: right;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.font-bold{
+    font-weight: bold!important;
+}
+.font-normal {
+    font-weight: normal !important;
+}
+.font-12 {
+    font-size: 12px;
+}
+.font-14 {
+    font-size: 14px;
+}
+.font-16 {
+    font-size: 16px;
+}
+.font-18 {
+    font-size: 18px;
+}
+.font-20 {
+    font-size: 20px;
+}
+.text-grey-color{
+    color: #b9b9b9;
+}
+.text-facebook-color {
+    color:#8f98a4fa;
+}
+.margin-btm-10 {
+    margin-bottom: 10px!important;
+}
+.margin-btm-15 {
+    margin-bottom: 15px!important;
+}
+.margin-btm-20 {
+    margin-bottom: 20px!important;
+}
+.margin-top-10 {
+    margin-top: 10px!important;
+}
+.margin-top-15 {
+    margin-top: 15px!important;
+}
+.margin-top-20 {
+    margin-top: 20px!important;
+}
+.margin-left-10 {
+    margin-left: 10px!important;
+}
+.margin-left-20 {
+    margin-left: 20px!important;
+}
+.margin-right-10 {
+    margin-right: 10px!important;
+}
+.margin-right-20 {
+    margin-right: 20px;
+} 
+
+.color-blue {
+    color: $mainBlue !important;
+}
+.color-red {
+    color: #d42b4b;
+}
+.color-white {
+    color: #fff;
+}
+.color-fb {
+    color: #4267b2;
+}
+.width-50px {
+    width: 50px;
+}
+.width-150px {
+    width: 150px;
+}
+.width-100px {
+    width: 100px;
+}
+.width-200px {
+    width: 200px;
+}
+.inline-block {
+    display: inline-block;
+}

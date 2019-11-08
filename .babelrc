@@ -1,0 +1,16 @@
+{
+    "presets": [
+        "@babel/preset-env"
+    ],
+    "plugins": [
+        "transform-vue-jsx",   //npm install babel-plugin-transform-vue-jsx --save-dev
+        [
+            "component", {  //npm install babel-plugin-component --save-dev
+                "libraryName": "element-ui",
+                "styleLibraryName": "theme-chalk"
+            }
+        ],
+        
+        "@babel/plugin-transform-runtime"  //npm install @babel/plugin-transform-runtime --save-dev
+    ]
+}

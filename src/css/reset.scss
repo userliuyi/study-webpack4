@@ -1,0 +1,95 @@
+
+@import 'variables';
+a {
+    text-decoration: none;
+}
+p, dl {
+    margin: 0px;
+}
+em {
+    font-style: normal;
+}
+.el-form-item {
+    margin-bottom: 0px;
+    .el-form-item__content {
+        line-height: 32px;
+    }
+}
+.el-range-editor.is-active, .el-range-editor.is-active:hover {
+    border-color: #fff;
+}
+.el-input__inner {
+    line-height: 32px;
+    height: 32px;
+    padding: 3px 6px !important;
+    border-radius: 4px;
+}
+.el-dropdown-menu__item:focus, .el-dropdown-menu__item:not(.is-disabled):hover {
+    color: $hoverBlue;
+}
+.el-form-item__label {
+    line-height: 32px;
+    height: 32px;
+    padding: 3px 6px !important;
+    color: #fff;
+}
+.el-date-editor .el-range-separator, .el-input__icon {
+    height: 32px;
+    line-height: 32px;
+}
+
+.el-date-editor--daterange.el-input, .el-date-editor--daterange.el-input__inner, .el-date-editor--datetimerange.el-input, .el-date-editor--datetimerange.el-input__inner {
+    max-width: 300px;
+}
+.el-button--default, .el-button--primary {
+    height: 32px;
+    padding: 4px 12px !important;
+    border-radius: 4px;
+    //background-color: $mainBlue;
+    //border-color: $mainBlue;
+    // color: #fff;
+    &:hover {
+        //background-color: $hoverBlue;
+        //border-color: $hoverBlue;
+    }
+}
+
+/* reset scrollbar */
+::-webkit-scrollbar {
+    width:8px;
+}
+/* 滚动槽 */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow:inset006pxrgba(0,0,0,0.3);
+    border-radius:10px;
+}
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+    border-radius:10px;
+    background:#7288aa;
+    -webkit-box-shadow:inset006pxrgba(0,0,0,0.5);
+}
+
+
+body{
+    scrollbar-track-color: #25252f; /*立体滚动条背景颜色*/ 
+    scrollbar-base-color:#7288aa; /*滚动条的基色*/
+    scrollbar-arrow-color:#25252f;
+}
+.el-tag--info, .el-tag--info .el-tag__close {
+    color: #333;
+}
+.el-tooltip__popper {
+    max-width: 800px;
+}
+
+.am-panel {
+    background: #fff;
+    .am-panel-hd {
+        border-bottom: 1px solid #ddd;
+        font-size: 16px;
+    }
+    .am-panel-hd, .am-panel-bd {
+        padding: 10px 20px;
+    }
+}

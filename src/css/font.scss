@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('./icomoon/fonts/icomoon.eot?ncawxl');
+    src:  url('./icomoon/fonts/icomoon.eot?ncawxl#iefix') format('embedded-opentype'),
+      url('./icomoon/fonts/icomoon.ttf?ncawxl') format('truetype'),
+      url('./icomoon/fonts/icomoon.woff?ncawxl') format('woff'),
+      url('./icomoon/fonts/icomoon.svg?ncawxl#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  [class^="skynet-icon-"], [class*=" skynet-icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    display: inline-block;
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .skynet-icon-item:before {
+    content: "\e905";
+  }
+  .skynet-icon-family:before {
+    content: "\e906";
+  }
+  .skynet-icon-love:before {
+    content: "\e907";
+  }
+  .skynet-icon-logout:before {
+    content: "\e902";
+  }
+  .skynet-icon-twitter-verified:before {
+    content: "\e916";
+  }
+  .skynet-icon-browse-model:before {
+    content: "\e901";
+  }
+  .skynet-icon-list-model:before {
+    content: "\e900";
+  }
+  .skynet-icon-facebook-user:before {
+    content: "\e947";
+  }
+  .skynet-icon-like:before {
+    content: "\e96d";
+  }
+  .skynet-icon-facebook:before {
+    content: "\e962";
+  }
+  .skynet-icon-twitter:before {
+    content: "\e966";
+  }
+  .skynet-icon-Facebook .path1:before {
+    content: "\e949";
+    color: rgb(66, 98, 165);
+  }
+  .skynet-icon-Facebook .path2:before {
+    content: "\e94a";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+  .skynet-icon-tweets .path1:before {
+    content: "\e95e";
+    color: rgb(70, 149, 231);
+  }
+  .skynet-icon-tweets .path2:before {
+    content: "\e95f";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+  .skynet-icon-facebook-homepage:before {
+    content: "\e948";
+  }
+  .skynet-icon-facebook-toplist:before {
+    content: "\e945";
+  }
+  .skynet-icon-descending:before {
+    content: "\e93c";
+  }
+  .skynet-icon-arrow-right:before {
+    content: "\e938";
+  }
+  .skynet-icon-refresh:before {
+    content: "\e90c";
+  }
+  .skynet-icon-view:before {
+    content: "\e923";
+  }
+  .skynet-icon-export:before {
+    content: "\e921";
+  }
+  .skynet-icon-delete:before {
+    content: "\e914";
+  }
+  .skynet-icon-close:before {
+    content: "\e915";
+  }
+  .skynet-icon-analysis:before {
+    content: "\e911";
+  }
+  .skynet-icon-reply:before {
+    content: "\e90d";
+  }
+  .skynet-icon-arrow-down:before {
+    content: "\e903";
+  }
+  .skynet-icon-arrow-up:before {
+    content: "\e904";
+  }
+  .skynet-icon-retweet:before {
+    content: "\e90e";
+  }
+  .skynet-icon-searcher:before {
+    content: "\e90f";
+  }
